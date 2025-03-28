@@ -237,7 +237,7 @@ function createTextMesh(text, font, size, color) {
     const textGeometry = new TextGeometry(text, {
         font: font,
         size: size,
-        depth: 1
+        depth: 0.3
     });
 
     const textMaterial = new THREE.MeshBasicMaterial({ color });
