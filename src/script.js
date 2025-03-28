@@ -3,15 +3,8 @@ import * as THREE from 'three';
 
 
 import { OrbitControls } from "three/addons/controls/OrbitControls.js"; // ✅ CORRECT
-
-
-
-
-
-
-
-import { FontLoader } from 'three/addons/controls/FontLoader.js';
-import { TextGeometry } from 'three/addons/controls/TextGeometry.js';
+import { TextGeometry } from "three/addons/geometries/TextGeometry.js";
+import { FontLoader } from "three/addons/loaders/FontLoader.js";
 
 // ========== Scene and Camera ==========
 const scene = new THREE.Scene();
