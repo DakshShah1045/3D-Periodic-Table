@@ -237,7 +237,7 @@ function createTextMesh(text, font, size, color) {
     const textGeometry = new TextGeometry(text, {
         font: font,
         size: size,
-        height: 0.05,           // Very thin extrusion (almost flat)
+        height: 0.2,           // Very thin extrusion (almost flat)
         depth: 1
     });
 
