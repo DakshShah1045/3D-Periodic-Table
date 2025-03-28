@@ -196,7 +196,7 @@ const blocks = [];
 // ========== Create Periodic Table ==========
 function createPeriodicTable() {
     const fontLoader = new FontLoader();
-    fontLoader.load('https://threejs.org/examples/fonts/helvetiker_regular.typeface.json', (font) => {
+    fontLoader.load('/3D-Periodic-Table/static/font.json', (font) => {
 
         periodicTableData.forEach((element) => {
             const groupColor = groupColors[element.group] || 0xffffff;
