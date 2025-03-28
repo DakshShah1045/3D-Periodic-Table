@@ -237,7 +237,7 @@ function createTextMesh(text, font, size, color) {
     const textGeometry = new TextGeometry(text, {
         font: font,
         size: size,
-        height: 0.2,           // Very thin extrusion (almost flat)
+        height: 0.4,           // Very thin extrusion (almost flat)
         depth: 1
     });
 
@@ -295,8 +295,8 @@ const intersects = raycaster.intersectObjects(scene.children);
 
 
 clickedBlock.position.z += 300;
-clickedBlock.userData.textMesh.position.z += 290;
-        clickedBlock.userData.symbolMesh.position.z += 290;
+clickedBlock.userData.textMesh.position.z += 300;
+        clickedBlock.userData.symbolMesh.position.z += 300;
         //clickedBlock.userData.textMesh.scale.set(2,2,2)
         //clickedBlock.userData.symbolMesh.scale.set(2,2,2)
 
