@@ -237,7 +237,8 @@ function createTextMesh(text, font, size, color) {
     const textGeometry = new TextGeometry(text, {
         font: font,
         size: size,
-        depth: 0.3
+        height: 0.01,           // Very thin extrusion (almost flat)
+        depth: 1
     });
 
     const textMaterial = new THREE.MeshBasicMaterial({ color });
